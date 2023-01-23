@@ -1,0 +1,26 @@
+/* trying out sum stuff */
+#circle {
+    background-image: radial-gradient(yellowgreen 50%, black 50%,black 52%, yellowgreen 52%);
+}
+
+#raster {
+    background-color: red;
+    /* border: 20px;
+    border-color: blueviolet;
+    border-style: dotted; */
+    background-image: repeating-linear-gradient( to top right, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 255, 0) 30%,green 30%, green 32%);
+    background-image: repeating-linear-gradient(to top left, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 255, 0) 30%,green 30%, green 32%);
+} 
+
+div {
+    width: 500px;
+    height: 500px;
+    /* flex-direction: column; */
+}
+
+
+main, div, img{
+    /* width: 20vw; */
+    height: auto;
+    flex-direction:row;
+}

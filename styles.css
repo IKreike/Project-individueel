@@ -38,29 +38,32 @@ p{
 /* flexbox maken */
 .flex-container {
     display: flex;
-    /* background-color: aquamarine; */
+    flex-direction: column;
 }
 
 
 
 /* testing */
 body {
-    background-color: rgb(123, 170, 170);
+    background-color: white;
 }
 
 
 /* Navigation opmaak */
 nav {
-    background-color: beige;
+    background-color: rgb(171, 219, 69);
 }
 
 nav a{
     text-decoration: none;
     font-family: poppins;
+    padding: 1em;
+    color: black;
 }
 
 ul{
     overflow: hidden;
+    list-style-type: none;
 }
 
 li {
@@ -72,12 +75,30 @@ li a{
     text-align: center;
 }
 
+/* img, .logo {
+    max-width: 2em;
+    padding: 0;
+    margin: 0;
+} */
+
+
+
+
+
 
 /* article opmaak */
 article {
-    padding-bottom: 2em;
-    margin: 2em;
-    background-color: beige;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    background-color: rgb(241, 234, 226);
     border-radius: 5%;
     /* flex-direction:column; */
     /* align-items: center; */
@@ -85,19 +106,81 @@ article {
     /* background-color: beige; */
 }
 
-img {
+article img {
     max-width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
 
 
-p{
-    justify-content: flex-end;
+
+
+/* background image */
+#background {
+    background-image: url("./Assets/images/park.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 234, 226);
+    height: 500px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#background2{
+    background-image: url("./Assets/images/mapfilled.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 234, 226);
+    height: 500px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
 }
 
 
+img {
+    max-width: 600px;
+}
 
+.ig {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    background-color: rgb(171, 219, 69);
+}
+
+
+/* div:hover img{
+    background-color: rgb(63, 172, 4);
+    animation-name: scroll;
+} */
+
+.animation{
+    background-color: blue;
+    animation-name: scroll;
+}
+
+
+@keyframes scroll {
+    from {background-color: blueviolet;}
+    to {background-color: aquamarine;}
+}
 
 /* border-bottom-left-radius: 5%;
 border-bottom-right-radius: 5%; */
+
+
+
+
+
+
+/* color list */
+/* 
+beige: rgb(241, 234, 226)
+paars rgb(113, 112, 228)
+Geel: rgb(248, 218, 93)
+bruin:: rgb(120, 85, 77)
+groen: rgb(171, 219, 69)
+*/
