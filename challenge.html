@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,62 +8,82 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="./index.html"><img src="./Assets/images/logoblack.png" alt="logo" class="logo"></a></li>
-                <li><a href="./settings.html">Generate a route</a></li>
-                <li><a href="#">Daily challenge</a></li>
-            </ul>
+            <details>
+                <summary>
+                    <img src="./Assets/images/logoblack.png" alt="logo" class="logo">
+                </summary>
+                <a href="./index.html">home</a>
+                <a href="./settings.html">Generate a Route</a>
+                <a href="./challenge.html">Daily challenge</a>
+            </details>
         </nav>
     </header>
     <main class="flex-container">
+
         <div id="background">
-            <h1>dit is de titel</h1> 
-            <p>deze tekst komt onder het plaatje</p>
+            <h1>Daily challenge</h1>
+            <!-- <p>deze tekst komt onder het plaatje</p> -->
         </div>
-        <article>
+
+        <!-- <article>
             <img src="./Assets/images/park.jpg" alt="park">
             <p>fun fact of something related to the image</p>
-        </article>
+        </article> -->
+
         <article>
             <h3>prompt</h3>
             <p>Go outside and find a difference between the app buienradar app and reality. Get inspired!</p>
         </article>
+
         <article>
             <h3>suggested locations</h3>
 
             <details>
-                <summary><h4>locatie1</h4> <p>boom</p></summary>
+                <summary>
+                    <h4>locatie1</h4>
+                    <p>boom</p>
+                </summary>
                 <p>een grote boom</p>
-                <button>ga hier</button>
+                <button class="button">ga hier</button>
             </details>
 
             <details>
-                <summary><h4>locatie2</h4> <p>museum</p></summary>
-                <p>een hoog museum</p>
-                <a href="#">go to this location</a>
+                <summary>
+                    <h4>locatie2</h4>
+                    <p>museum</p>
+                </summary>
+                <p>een hoog museum waar staat dit</p>
+                <a href="./settings.html" class="button">go to this location</a>
             </details>
 
             <details>
-                <summary><h4>locatie3</h4> <p>korte summary</p></summary>
+                <summary>
+                    <h4>locatie3</h4>
+                    <p>korte summary</p>
+                </summary>
                 <p>meer info</p>
             </details>
+
         </article>
 
         <!-- either a button or a dead link -->
-        <button>upload your creation</button>
+        <button class="button">upload your creation</button>
 
-        <h3>what others found</h3>
-        <img src="./Assets/images/rijks.jpg" alt="museum clear sky" class="ig">
-        <img src=".//Assets/images/clothes.jpg" alt="chothes store" class="ig">
- 
-        
+        <div class="sides">
+            <h3>what others found</h3>
+            <img src="./Assets/images/rijks.jpg" alt="museum clear sky" class="ig">
+            <img src=".//Assets/images/clothes.jpg" alt="chothes store" class="ig">
+        </div>
+
 
     </main>
     <footer>
         <p>hallo test test</p>
     </footer>
 </body>
+
 </html>
