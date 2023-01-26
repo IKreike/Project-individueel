@@ -43,7 +43,7 @@ label {
 }
 
 
-h1 {
+.center {
     text-align: center;
 }
 
@@ -57,10 +57,6 @@ h1 {
 /* basiskleuren */
 body {
     background-color: white;
-}
-
-footer {
-    background-color: rgb(171, 219, 69);
 }
 
 
@@ -97,17 +93,12 @@ a:active {
 }
 
 .logo {
-    width: 150px;
-    /* justify-content: center; */
-    text-align: center;
-    /* float: right; */
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: .5em;
 }
 
-/* img, .logo {
-    max-width: 2em;
-    padding: 0;
-    margin: 0;
-} */
 
 
 
@@ -124,28 +115,15 @@ article {
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 
     background-color: rgb(241, 234, 226);
     border-radius: 5%;
-    /* flex-direction:column; */
-    /* align-items: center; */
-    /* justify-content: flex-end; */
-    /* background-color: beige; */
 }
 
 /* the one article block thats green */
 .green {
     background-color: rgb(171, 219, 69);
-}
-
-
-
-/* dont know if/why I have these */
-article img {
-    max-width: 100%;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
 }
 
 
@@ -172,7 +150,6 @@ article img {
     height: 255px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    /* display: flex; */
 }
 
 
@@ -191,9 +168,6 @@ article img {
     font-family: poppins;
     font-size: 1em;
     border-radius: 5%;
-    /* align-content: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
     margin: .5em;
     margin-left: 10%;
     margin-right: 10%;
@@ -205,7 +179,6 @@ article img {
 .map {
     height: 4.5em;
     width: 4.5em;
-    /* ik weet niet of dit in pixels moet */
     margin-left: 18em;
     margin-top: 10em;
 }
@@ -219,8 +192,6 @@ article img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* display: grid;
-    grid-template-columns: 1fr 5fr; */
     grid-gap: 20px;
     overflow: scroll;
     height: 200px;
@@ -239,9 +210,6 @@ article img {
     background-color: rgba(127, 255, 212, 0);
     display: block;
     font-family: poppins;
-    /* padding: 1em; */
-    /* padding-left: .5em;
-    padding-right: .5em; */
     border: solid;
     font-size: 1.2em;
     width: 10%;
@@ -251,14 +219,11 @@ article img {
 
 
 
-
 /* De vervoerskeuze bewegen */
 .vervoer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* display: grid; */
-    /* grid-template-rows: 200px; */
     grid-gap: 10px;
     overflow: scroll;
     height: 150px;
@@ -272,7 +237,6 @@ article img {
     width: 100%;
     height: 150px;
     transition: all ease 500ms;
-    /* background-color: blue; */
     padding-left: 150px;
 }
 
@@ -282,11 +246,11 @@ article img {
   }
 
 
+
 /* different methots of transport */
 .checkerwalk {
     background-image:url(".//Assets/images/walkno.png");
     background-repeat: no-repeat;
-    /* background-size:contain; */
     background-position: center;
 }
 #travel1:checked + .checkerwalk {
@@ -297,7 +261,6 @@ article img {
 .checkerbike {
     background-image:url(".//Assets/images/bikeno.png");
     background-repeat: no-repeat;
-    /* background-size: 200px; */
     background-position: center;
 }
 #travel2:checked + .checkerbike {
@@ -308,8 +271,6 @@ article img {
 .checkerov {
     background-image:url(".//Assets/images/ovno.png");
     background-repeat: no-repeat;
-    /* background-size:contain; */
-    /* background-size: 200px; */
     background-position: center;
 }
 #travel3:checked + .checkerov {
@@ -320,25 +281,15 @@ article img {
 .checkercar {
     background-image:url(".//Assets/images/carno.png");
     background-repeat: no-repeat;
-    /* background-size:contain; */
-    /* background-size: 200px; */
     background-position: center;
 }
 #travel4:checked + .checkercar {
     background-image: url("./Assets/images/caryes.png");
 }
 
+/* homescreen pictures */
+.card{
+    width: 100%;
+    border-radius: 5%;
+}
 
-
-
-/* color list */
-/* 
-beige: rgb(241, 234, 226)
-paars rgb(113, 112, 228)
-Geel: rgb(248, 218, 93)
-bruin:: rgb(120, 85, 77)
-groen: rgb(171, 219, 69)
-*/
-
-/* border-bottom-left-radius: 5%;
-border-bottom-right-radius: 5%; */

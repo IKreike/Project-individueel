@@ -51,3 +51,66 @@ main, div, img{
         background-color: aquamarine;
     }
 }
+
+
+
+
+/* color list */
+/* 
+beige: rgb(241, 234, 226)
+paars rgb(113, 112, 228)
+Geel: rgb(248, 218, 93)
+bruin:: rgb(120, 85, 77)
+groen: rgb(171, 219, 69)
+*/
+
+/* border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%; */
+
+
+
+
+
+
+
+
+/* <!-- <button class="button">Daily challenge</button>
+<button class="button">Make a route</button>
+<button class="button">current route</button> -->
+
+
+
+
+
+<!-- <ul>
+    <li><a href="./index.html"><img src="./Assets/images/logoblack.png" alt="logo" class="logo"></a></li>
+    <li><a href="./settings.html">Generate a Route</a></li>
+    <li><a href="./challenge.html">Daily challenge</a></li>
+</ul> -->
+
+<!-- <a href="./index.html"><img src="./Assets/images/logoblack.png" alt="logo" class="logo"></a>
+<div class="dropdown-content">
+    <a href="./settings.html">Generate a Route</a>
+    <a href="./challenge.html">Daily challenge</a>
+</div> -->
+
+<!-- 
+<article>
+    <img src="./Assets/images/mapfilled.png" alt="kaart">
+    <h1>Directions</h1>
+    <details>
+        <summary>
+            <h3>After 200m, go right</h3> 
+            <p>next, go right after crossing the bridge</p>
+        </summary>
+        <p>this is the 3rd thing you do</p>
+        <p>this is th 4th thing you do</p>
+    </details>
+</article> -->
+
+
+<!-- <div id="circle"></div> -->
+<!-- <div id="raster">hallo</div> --> */
+
+
+
